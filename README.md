@@ -1,11 +1,14 @@
 **Note:** The assessment asked for SQL Server LocalDB, but that only works on Windows. Since I'm using a Mac, I went with SQLite instead and it works the same way for this project.
 
-SQL Query:
+## SQL Query
 
+Fetch the latest well for each platform:
+
+```sql
 SELECT 
     p.Id,
     p.PlatformName,
-    w.Id as WellId,
+    w.Id AS WellId,
     w.UniqueName,
     w.UpdatedAt
 FROM 
@@ -15,7 +18,7 @@ INNER JOIN
 INNER JOIN (
     SELECT 
         PlatformId,
-        MAX(UpdatedAt) as MaxUpdatedAt
+        MAX(UpdatedAt) AS MaxUpdatedAt
     FROM 
         Wells
     GROUP BY 

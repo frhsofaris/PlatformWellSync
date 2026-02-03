@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlatformWellSync", "PlatformWellSync.csproj", "{762DBEF6-5CE2-D6B0-A7A3-B93CB3DAFFA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{762DBEF6-5CE2-D6B0-A7A3-B93CB3DAFFA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762DBEF6-5CE2-D6B0-A7A3-B93CB3DAFFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762DBEF6-5CE2-D6B0-A7A3-B93CB3DAFFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762DBEF6-5CE2-D6B0-A7A3-B93CB3DAFFA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5ABF9BE3-4A22-47B6-8099-A3F4343AD238}
+	EndGlobalSection
+EndGlobal

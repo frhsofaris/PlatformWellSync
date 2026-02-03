@@ -27,6 +27,7 @@ INNER JOIN (
     AND w.UpdatedAt = latest.MaxUpdatedAt
 ORDER BY 
     p.Id;
+```
 
 **To run it:**
 sqlite3 platformwell.db < query.sql
